@@ -1,0 +1,281 @@
+/*COLORS*/
+/*primary blue => #3E5FBF*/
+/*secondary red => #FF4540*/
+/*darker blue => #293F7F*/
+/*darkest blue => #152040*/
+/*light blue => #9CC8E5*/
+
+.inner-lite {
+  padding: 2%;
+}
+
+/*
+Header ======================================================================================================================================================
+*/
+
+header {
+  background-color: #152040;
+}
+
+.nav {
+  padding: 5%;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  header {
+    text-align: right;
+  }
+  .nav {
+    padding: 3%;
+  }
+}
+
+
+/*
+Forms ======================================================================================================================================================
+*/
+
+.modal form {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.form-field {
+  padding: .5em;
+  margin: 1em;
+  border-radius: .5em;
+  border: none;
+  color: #152040;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: inherit;
+}
+
+.form-field:hover,
+.form-field:focus,
+.form-field:active {
+  outline: none;
+  border: none;
+}
+
+.login-btn {
+  width: inherit;
+}
+
+input {
+  z-index: 99;
+  
+}
+
+/*
+Links ======================================================================================================================================================
+*/
+
+.btn {
+  padding: .5em 1em;
+  border-radius: .5em;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  border: 2px solid #eee;
+}
+
+.btn-primary {
+  background-color: #3E5FBF;
+  border: 2px solid #293F7F;
+}
+
+.btn-secondary {
+  background-color: #FF4540;
+  border: 2px solid #FF2320;
+}
+
+.btn-alt {
+  background-color: #9CC8E5;
+  border: 2px solid #293F7F;
+}
+/*
+Messages ======================================================================================================================================================
+*/
+
+.msg {
+  width: 100%;
+  text-align: center;
+}
+
+.message-modal {
+  position: absolute;
+  background-image: url('/images/patriot.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.message {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  width: 55%;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+/*
+Index ======================================================================================================================================================
+*/
+
+.brand {
+  letter-spacing: .2em;
+}
+
+.tag-line {
+  position: relative;
+  color: #9CC8E5;
+  bottom: 20%;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.tag-btn:hover,
+.tag-btn:focus,
+.tag-btn:active {
+  border: 2px solid #293F7F;
+}
+
+@media (min-width: 768px) {
+  .brand {
+    font-size: 6em;
+  }
+}
+
+.welcome a {
+  margin: 0 2em;
+}
+
+/*
+Profile ======================================================================================================================================================
+*/
+
+.profile {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  bottom: auto;
+}
+
+.profile-btns {
+  position: relative;
+  text-align: center;
+  height: 50%;
+
+}
+
+.btn-profile {
+  display: inline-block;
+  /*height: 8em;*/
+  /*left: 5%;*/
+  /*right: 5%;*/
+  width: 50%;
+  margin: 5%;
+  border-radius: 1em;
+  padding: 5% 10%;
+}
+
+@media (min-width:768px) {
+  .btn-profile {
+    display: inline-block;
+    height: 8em;
+    width: 8em;
+    margin: 5%;
+    border-radius: 100%;
+    padding: 5%;
+  }
+}
+
+.btn-profile p {
+  color: #eee;
+  position: relative;
+  top: 30%;
+}
+
+.profile-btns a:hover,
+.profile-btns a:active,
+.profile-btns a:focus {
+  border: none;
+  height: 9em;
+  width: 9em;
+}
+
+
+.btn-profile:hover,
+.btn-profile:active,
+.btn-profile:focus {
+  background-color: #293F7F;
+}
+
+/*
+Create Survey ======================================================================================================================================================
+ */
+
+.create-survey-section {
+  /*padding: 5%;*/
+}
+
+.create-survey-form {
+  width: 100%;
+}
+
+.create-survey-section .form-field {
+  border: 2px solid #293F7F;
+  width: 80%;
+}
+
+.create-survey-section .choice {
+  border: 2px solid #FF4540;
+  width: 60%;
+}
+
+.create-survey-section .survey-title {
+  border: none;
+  font-size: 4em;
+  color: #293F7F;
+  /*width: 60%;*/
+}
+
+.survey-end li,
+.question-end li {
+  display: inline-block;
+  margin: 0 5%;
+}
+
+.question-end {
+  padding: 5%;
+}
+
+/*
+Take Survey ======================================================================================================================================================
+ */
+
+.survey-display {
+  padding: 2% 15%;
+  /*text-align: center*/
+  margin: 0 auto;
+  border-top: 1px solid #444;
+}
+
+.survey-display ul * {
+  text-align: left;
+}
+
+.survey-image {
+  width: 15%;
+}

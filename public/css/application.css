@@ -1,0 +1,29 @@
+.questions{
+  display: none;
+}
+
+#submit_answers{
+  display: none;
+}
+
+.input_questions{
+  display: none;
+}
+
+.input_choices{
+  display: none;
+}
+
+#finish_survey{
+  display: none;
+}
+
+#new_question{
+  display: none;
+}
+
+#eagle{
+  position: fixed;
+  bottom: 125px;
+  left: -700px;
+}
